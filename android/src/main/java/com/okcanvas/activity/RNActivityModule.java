@@ -49,8 +49,8 @@ public class RNActivityModule extends ReactContextBaseJavaModule {
   void navigateToExample() {
     Activity activity = getCurrentActivity();
     if (activity != null) {
-      //Intent intent = new Intent(activity, MiniAppActivity.class);
-      Intent intent = new Intent(activity, Class.forName("com.okcanvas.activity.MiniAppActivity"));
+      Intent intent = new Intent(activity, MiniAppActivity.class);
+      //Intent intent = new Intent(activity, Class.forName("com.okcanvas.activity.MiniAppActivity"));
       activity.startActivity(intent);
     }
   }
