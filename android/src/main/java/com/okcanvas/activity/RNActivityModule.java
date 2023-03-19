@@ -1,6 +1,9 @@
 
 package com.okcanvas.activity;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.provider.MediaStore;
