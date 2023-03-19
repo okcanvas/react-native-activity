@@ -9,6 +9,8 @@ import android.graphics.BitmapFactory;
 import android.provider.MediaStore;
 import android.util.Base64;
 
+import androidx.annotation.NonNull;
+
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
